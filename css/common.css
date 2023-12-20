@@ -12,3 +12,240 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+.item {
+  background-color: #F6F6FE;
+  color: #2E2F42;
+  list-style: none;
+  padding: 16px 16px;
+  font-size: 24px;
+  font-weight: 200;
+  letter-spacing: 0.02em;
+  width: 392px;
+  height: 100%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.item-list {
+  list-style: none;
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  color: #2E2F42;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+}
+.h2 {
+  margin: 0;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  padding: 0;
+}
+
+.gallery {
+  list-style: none;
+  display: flex;
+  column-gap: 24px;
+  row-gap: 48px;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1128px;
+  align-items: center;
+}
+img{
+  width: 360px;
+  height: 100%;
+}
+
+.name-input {
+  width: 360px;
+  height: 40px;
+  color: #2E2F42;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+}
+.name-input::placeholder {
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2E2F42;
+}
+.span {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin: 0;
+}
+.h1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin: 0;
+}
+
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.login-label {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  color: #2E2F42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.login-input {
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+.login-input:hover{
+  border: 1px solid #000000;
+  border-style: none;
+}
+.login-button {
+  color: #FFFFFF;
+  background-color: #4E75FF;
+  width: 86px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 8px;
+  border-style: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  display: block;
+  text-align: center;
+  margin-top: 8px;
+}
+.login-button:hover {
+background-color: #6C8CFF;
+}
+
+
+.change-color{
+color: #FFFFFF;
+background-color: #4E75FF;
+width: 148px;
+height: 40px;
+font-size: 16px;
+border-radius: 8px;
+border-style: none;
+font-family: "Roboto", sans-serif;
+font-weight: 200;
+line-height: 1.5;
+letter-spacing: 0.04em;
+display: block;
+text-align: center;
+}
+.change-color:hover {
+  background-color: #6C8CFF;
+}
+.widget {
+  color: #2E2F42;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
+  max-width: 169px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  width: 486px;
+  height: 104px;
+  border-radius: 8px;
+  background-color: #F6F6FE;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.controls-input {
+  width: 150px;
+  height: 40px;
+  padding: 8px 16px;
+  text-align: center;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+.controls-button-sec {
+  background-color: #FF4E4E;
+  color: #FFFFFF;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 8px;
+  border-style: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  display: block;
+  text-align: center;
+}
+.controls-button-sec:hover {
+  background-color: #FF7070;
+}
+.controls-button-st {
+  background-color: #4E75FF;
+  color: #FFFFFF;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 8px;
+  border-style: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  display: block;
+  text-align: center;
+}
+.controls-button-st:hover {
+background-color: #6C8CFF;
+}
+.boxes {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  width: 486px;
+  height: 100%;
+  border-radius: 8px;
+  background-color: #F6F6FE;
+  padding: 32px 32px;
+}
+
+input:active::after {
+  content: "Type area";
+  font-size: 16px;
+  color: #2E2F42;
+  letter-spacing: 0.04em;
+}
