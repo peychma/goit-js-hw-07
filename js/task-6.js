@@ -6,7 +6,8 @@ const boxesList = document.querySelector("#boxes");
     createButton.addEventListener('click', createBoxes);
     destroyButton.addEventListener('click', destroyBoxes);
 
-    function createBoxes() {
+function createBoxes() {
+  boxesList.innerHTML = "";
       const amount = Number(input.value);
       if (isNaN(amount) || amount < 1 || amount > 100) {
         return;
@@ -17,9 +18,7 @@ const boxesList = document.querySelector("#boxes");
         boxesMarkup += `<div class="box" style="width: ${30 + i * 10}px; height: ${30 + i * 10}px; background-color: ${boxColor};"></div>`;
       }
       boxesList.innerHTML = boxesMarkup;
-      input.value = "";
     }
-
 function destroyBoxes() {
       boxesList.innerHTML = "";
       input.value = "";
